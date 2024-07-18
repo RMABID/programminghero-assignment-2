@@ -35,12 +35,12 @@ body{
      padding: 58px ;
      
     }
-    .navbar-main{
-        border: 1px solid red;
+ .navbar-main{
+        /* border: 1px solid red; */
         max-width: 1200px;
         display: flex;
-         justify-content: space-between;
-         margin:  0 auto;
+        justify-content: space-between;
+        margin:  0 auto;
 
 }
 .navbar-main h1{
@@ -120,7 +120,7 @@ span{
     text-align: center;
     padding: 15px 3px;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(14px);
+    backdrop-filter: blur(24px);
     color: rgb(255, 255, 255);
     /* border: 2px solid red; */
     position: absolute;
@@ -142,13 +142,85 @@ span{
     border-radius: 12px;
 
 }
+/* Change Your Habits css styles */
+.habits-section{
+    background-color: rgb(0, 0, 0);
+}
+.habits-section-content{
+    width: 1040px;
+    /* height: 452px */
+    margin: 0 auto;
+}
+.habits-section-container{
+    padding-top: 60px;
+}
+.habits-section-container h2{
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+}
+.habits-section-container p{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    
+}
+.change-habits-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 54px;
+}
+.habits-1 img{
+    border-radius: 50%;
+    /* padding: 10px; */
+}
+.habits-1 h3{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.habits-1 p{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Run an Extra Mile Easily css styles */
+.extra-run-section{
+    width: 1060px;
+    height: 371px;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    border-radius: 17px;
+    margin-top: 60px;
+    padding: 32px;
+}
+.extra-run-container{
+    margin-top: 70px;
+
+    color: aliceblue;
+}
+.extra-run-container h1{
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+.run-image img{
+    width: 366px;
+   height: 312px;
+   border-radius: 18px;
+}
 
 
 
 @media screen and (max-width: 576px) {
-    .navbar-main{
-    margin: auto;
-}
+    .navbar-wrapper {
+        padding: 18px;
+    }
     .main-content{
         flex-direction: column;
     }
@@ -160,15 +232,58 @@ span{
         font-size: 50px;
     }
     .main-title h1{
-        font-size: 35px;
-        text-align: center;
-        align-items: center;
+        font-size: 33px;
+       
+
     }
     .main-banner-image img{
 /* width: 100%; */
     }
-    .workout-video,
+    .workout-video{
+        width: 40%;
+        top: 10%;
+        left: 45%;
+        padding: 5px 2px;
+    }
     .video-tutorial{
-        display: none;
+        width: 35%;
+        top: 50%;
+        right: 60%;
+        text-align: center;
+        padding: 5px 9px;
+    }
+    
+    .habits-section-content{
+        width: 338px;
+        height: 1398px;
+        margin: 0 auto;
+       
+        /* align-items: center; */
+        
+    }
+    .change-habits-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habits-section-container h2{
+        font-size: 32px;
+    }
+    .habits-1{
+        margin-top: 35px;
+        text-align: center;
+       
+    }
+    .habits-1 img{
+        margin: 0 auto;
+    }
+    .extra-run-section{
+        flex-direction: column;
+        width: 353px;
+        height: 531px;
+        padding: 25px;
+        /* justify-content: center;
+        align-content: center; */
+    }
+    .run-image img{
+        width: 100%;
     }
 }
