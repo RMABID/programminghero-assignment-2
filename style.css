@@ -216,7 +216,24 @@ span{
    height: 312px;
    border-radius: 18px;
 }
-
+/* BMI Calculator css styles */
+.bmi-content{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 35px;
+    /* border: 1px solid red;/ */
+}
+.bim-container h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+.bim-container p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 @media screen and (max-width: 576px) {
@@ -295,5 +312,8 @@ span{
     .run-image img{
         width: 287px;
         height: 170px;
+    }
+    .bmi-content {
+        width: 100%;
     }
 }
