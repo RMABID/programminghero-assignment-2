@@ -232,6 +232,7 @@ span{
         font-size: 50px;
     }
     .main-title h1{
+        width: 285px;
         font-size: 33px;
        
 
@@ -272,8 +273,8 @@ span{
         text-align: center;
        
     }
-    .habits-1 img{
-        margin: 0 auto;
+    .extra-run-container{
+        gap: 15px;
     }
     .extra-run-section{
         flex-direction: column;
@@ -283,7 +284,14 @@ span{
         /* justify-content: center;
         align-content: center; */
     }
+    .extra-run-container{
+        margin-top: 5px;
+    }
+    #run-btn{
+       margin-bottom: 15px;
+    }
     .run-image img{
-        width: 100%;
+        width: 287px;
+        height: 170px;
     }
 }
