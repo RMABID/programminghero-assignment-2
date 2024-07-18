@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.btn-primary{
+    width: 224px;
+    height: 54px;
+    margin-top: 24px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+}
+.head{
+    /* background: linear-gradient(
+        180deg,
+        rgb(17, 17, 17) 0%,
+     rgba(119, 119, 119, 0) 100%
+     /* ); */
+     background: radial-gradient( rgba(119, 119, 119, 0),rgb(17, 17, 17)
+    );
+     /* height: 715px; */
+     margin: 0 auto;
+}
+
+/* navbar css start here */
+.navbar-wrapper{
+
+     padding: 58px ;
+     
+    }
+    .navbar-main{
+        /* border: 1px solid red; */
+        max-width: 1200px;
+        display: flex;
+         justify-content: space-between;
+         margin:  0 auto;
+
+}
+.navbar-main h1{
+    font-weight: 800;
+    font-size: 36px;
+    color: rgb(230, 83, 60);
+}
+.nav-menu-btn{
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+}
+.nav-menu-home{
+    width: 92px;
+    height: 38px;
+    background-color:  rgb(230, 83, 60);
+    border: 2px solid rgb(230, 83, 60);
+    border-radius: 30px;
+}
+.nav-menu{
+    font-weight: 700;
+    font-size: 15px;
+    background: none;
+    color: white;
+    border: none;
+    margin-left: 30px;
+    padding: 4px 19px 4px 19px;
+}
+.nav-hamburger-menu{
+    display: none;
+}
+
+/* main-content css style */
+
+.main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.main-content{
+    display: flex;
+    margin: auto;
+
+}
+.main-title h1{
+ width: 520px;
+ /* height: 282px; */
+ font-weight: 900;
+ font-size: 79px;
+ color: rgb(255, 255, 255);
+}
+span{
+    font-family: "Sevillana", cursive;
+    /* font-family: "Dancing Script", cursive; */
+}
+.main-title p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
+#btn-primary-2{
+    background: none;
+    border: 1px dotted white;
+
+}
+.main-banner-image{
+    /* width: 100%; */
+    position: relative;
+}
+.workout-video{
+    /* width: 193px; */
+    width: 52%;
+    /* height: 98px; */
+    text-align: center;
+    padding: 15px 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(14px);
+    color: rgb(255, 255, 255);
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 24%;
+    left: 70%;
+    border-radius: 12px;
+}
+.video-tutorial{
+    /* border: 1px solid red; */
+    width: 57%;
+    /* text-align: center; */
+    padding: 15px 43px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(14px);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 75%;
+    right: 75%;
+    border-radius: 12px;
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar-main{
+        flex-direction: row;
+    }
+    .nav-hamburger-menu{
+        display: block;
+        display: flex;
+    }
+    .nav-menu-btn{
+        display: none;
+        
+    }
+    .main-content{
+        flex-direction: column;
+    }
+    .main-title h1{
+        font-size: 35px;
+    }
+    .main-title p{
+        font-size: 15px;
+        
+    }
+    /* .main-banner-image{
+        width: 80%;
+    } */
+}
