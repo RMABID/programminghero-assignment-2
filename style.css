@@ -313,7 +313,7 @@ th, td{
 }
 .meet-team-content{
     width: 1060px;
-    /* height: 782px; */
+    height: 892px;
     margin: 0 auto;
     text-align: center;
     /* border: 1px solid red; */
@@ -354,6 +354,26 @@ th, td{
     border-radius: 18px;
 }
 
+/* footer section css styles */
+.fitness-footer-section{
+    background-color: rgba(175, 9, 9, 0.1);
+    
+    padding-top: 88px;
+}
+.fitness-section-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 66px 191px 174px 190px;
+}
+.fitness-section-container h1{
+    font-weight: 800;
+    font-size: 70px;
+color: rgb(230, 83, 60);
+}
+ul,li{
+    text-decoration: none;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -474,7 +494,7 @@ th, td{
     }
     .team-image-container{
         width: 353px;
-        height: 1688px;
+        height: 1750px;
     }
     .team-member-image{
         grid-template-columns: repeat(1, 1fr);
