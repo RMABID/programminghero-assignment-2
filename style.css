@@ -221,7 +221,7 @@ span{
     width: 671px;
     height: 120px;
     margin: 0 auto;
-    margin-top: 35px;
+    margin-top: 45px;
     /* border: 1px solid red;/ */
 }
 .bim-container h1{
@@ -234,6 +234,91 @@ span{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* BMI Calculator Chart Css Styles */
+
+.bim-calculator{
+    background-color: rgb(34, 34, 34);
+    height: 487px;
+
+}
+.bim-calculator-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding-top: 5%;
+
+}
+.bim-calculator-container h3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 55px;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+table{
+    width: 310px;
+    height: 216px;
+    border-collapse: collapse;
+}
+.table-heading{
+    color: rgb(255, 255, 255);
+}
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bim-calculate-container{
+    width: 577px;
+    height: 386px;
+    
+}
+.bim-calculate-container h3{
+    font-weight: 900;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+.bim-calculate-container p{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+.inp-1{
+    width: 282px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* color: rgba(255, 255, 255, 0.1); */
+    margin-top: 12px;
+}
+.inp-2{
+    width: 577px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px;
+    margin-top: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Meet Our Team css styles */
+
+.our-team-member{
+    /* background-color: black; */
+}
+.meet-team-content{
+    width: 1060px;
+    height: 782px;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -317,5 +402,28 @@ span{
     }
     .bmi-content {
         width: 100%;
+    }
+    .bim-calculator{
+        /* width: 394px; */
+        height: 817px;
+        padding: 19px;
+    }
+    .bim-calculator-content{
+        flex-direction: column;
+    }
+    .bim-calculator-container h3,
+    .bim-calculate-container h3{
+        width: 167px;
+        font-size: 16px;
+    }
+    .bim-calculate-container {
+        width: 392px;
+    }
+    .inp-1{
+        width: 170px;
+
+    }
+    .inp-2 {
+        width: 342px;
     }
 }
