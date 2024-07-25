@@ -307,6 +307,8 @@ span{
         margin-top: 5px;
     }
     #run-btn{
+        /* text-align: center; */
+        width: 287px;
        margin-bottom: 15px;
     }
     .run-image img{
