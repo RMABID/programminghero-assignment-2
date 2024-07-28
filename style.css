@@ -338,10 +338,11 @@ th, td{
 
 .our-team-member{
     background-color: black;
+    /* height: 900px; */
 }
 .meet-team-content{
     width: 1060px;
-    /* height: 892px; */
+    height: 892px;
     margin: 0 auto;
     text-align: center;
     /* border: 1px solid red; */
@@ -550,11 +551,10 @@ th, td{
         width: 342px;
     }
     
-.our-team-member{
 
-}
     .meet-team-content{
-        width: 309px;
+        width: 359px;
+        height: 2000px;
     }
     .meet-team-container{
         width: 309px;
@@ -566,7 +566,7 @@ th, td{
     }
     .team-image-container{
         width: 353px;
-        height: 1730px;
+        height: 1740px;
     }
     .team-member-image{
         grid-template-columns: repeat(1, 1fr);
@@ -576,11 +576,16 @@ th, td{
         width: 313px;
     }
 
+    .fitness-footer-section{
+        /* margin-top: 15px; */
+    }
+
     .fitness-section-content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
+        justify-content: right;
     }
+
     .fitness-section-container h1{
         font-weight: 800;
         font-size: 60px;
