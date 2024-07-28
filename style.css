@@ -85,10 +85,10 @@ body{
 
 }
 .main-title h1{
- width: 520px;
+ width: 620px;
  /* height: 282px; */
  font-weight: 900;
- font-size: 69px;
+ font-size: 74px;
  color: rgb(255, 255, 255);
 }
 span{
@@ -452,7 +452,7 @@ th, td{
         font-size: 40px;
     }
     .main-title h1{
-        width: 295px;
+        width: 245px;
         font-size: 33px;
        
 
