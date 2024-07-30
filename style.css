@@ -531,10 +531,11 @@ th, td{
         width: 100%;
         padding: 0 2px 1px 12px;
     }
+
     .bim-calculator{
         /* width: 394px; */
         height: 817px;
-        padding: 19px;
+        padding: 20px;
     }
     .bim-calculator-content{
         flex-direction: column;
@@ -545,7 +546,7 @@ th, td{
         font-size: 16px;
     }
     .bim-calculate-container {
-        width: 392px;
+        width: 352px;
     }
     .inp-1{
         width: 170px;
