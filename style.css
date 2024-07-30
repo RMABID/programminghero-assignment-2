@@ -159,12 +159,13 @@ span{
     border-radius: 50%;
     border: none;
     background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
     color: pointer;
 }
 .video-icon::before{
-    display: none;
     content: '';
-    /* display: inline-block; */
+    display: inline-block;
+    display: none;
     border-left: 0.3em solid;
     border-top: 0.18em solid transparent;
     border-bottom: 0.18em solid transparent;
@@ -386,6 +387,7 @@ th, td{
 /* footer section css styles */
 .fitness-footer-section{
     background-color: rgba(27, 20, 20, 0.897);
+    /* background-color: rgba(255, 255, 255, 0.1); */
     
     padding-top: 88px;
 }
@@ -451,14 +453,15 @@ th, td{
         display: block;
         font-size: 40px;
     }
+    .nav-hamburger-menu i{
+        color: rgb(255, 255, 255);
+    }
     .main-title h1{
         width: 245px;
         font-size: 33px;
        
 
-    }
-    .main-banner-image img{
-/* width: 100%; */
+    
     }
     .workout-video{
         width: 40%;
@@ -526,6 +529,7 @@ th, td{
     }
     .bmi-content {
         width: 100%;
+        padding: 0 2px 1px 12px;
     }
     .bim-calculator{
         /* width: 394px; */
@@ -584,11 +588,18 @@ th, td{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: right;
+        padding: 0 0 12px 23px;
     }
-
+    
     .fitness-section-container h1{
         font-weight: 800;
         font-size: 60px;
+    }
+    .copy-section{
+        width: 364px;
+    }
+    .copy-section p{
+        text-align: left;
     }
 
 }
