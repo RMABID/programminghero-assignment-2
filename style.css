@@ -11,8 +11,8 @@ body{
 .btn-primary{
     width: 224px;
     height: 54px;
-    margin-top: 24px;
-    border-radius: 42px;
+    margin-top: 1.5rem;
+    border-radius: 2.6rem;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(230, 83, 60);
     background-color: rgb(230, 83, 60);
@@ -81,26 +81,31 @@ body{
 }
 .main-content{
     display: flex;
-    margin: auto;
+    justify-content: space-between;
+    /* margin: auto; */
 
 }
 .main-title h1{
  width: 620px;
  /* height: 282px; */
  font-weight: 900;
- font-size: 74px;
+ font-size: 4.625rem;
+ line-height: 70px;
  color: rgb(255, 255, 255);
 }
 span{
     font-family: "Great Vibes", cursive;
     font-weight: normal;
-    font-size: 80px;
+    font-size: 8.7rem;
     /* font-family: "Sevillana", cursive; */
     /* font-family: "Dancing Script", cursive; */
 }
 .main-title p{
-    font-size: 18px;
-    font-weight: normal;
+    width: 520px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 2rem;
     line-height: normal;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -119,12 +124,12 @@ span{
 }
 .workout-video{
     /* width: 193px; */
-    width: 52%;
+    width: 50%;
     /* height: 98px; */
     /* text-align: center; */
     align-items: center;
-    padding: 12px 1px;
-    padding-left: 8px;
+    padding: 7px 3px ;
+    padding-left: 15px;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(24px);
     color: rgb(255, 255, 255);
@@ -133,6 +138,18 @@ span{
     top: 24%;
     left: 70%;
     border-radius: 12px;
+}
+.workout-video h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.workout-video p,
+.video-tutorial p{
+    font-weight: 400;
+    font-size: 13px;
+}
+.video-tutorial h1{
+    font-size: 26px;
 }
 .video-tutorial{
     /* border: 1px solid red; */
@@ -185,6 +202,7 @@ span{
     width: 1040px;
     /* height: 452px */
     margin: 0 auto;
+    align-items: center;
 }
 .habits-section-container{
     padding-top: 60px;
@@ -231,19 +249,31 @@ span{
     height: 371px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     background-color: rgb(34, 34, 34);
     border-radius: 17px;
     margin-top: 60px;
     padding: 32px;
 }
 .extra-run-container{
-    margin-top: 70px;
+    /* margin-top: 70px; */
+    align-items: center;
 
-    color: aliceblue;
 }
 .extra-run-container h1{
     font-weight: 900;
     font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+
+}
+.extra-run-container p{
+    width: 443px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+    
 }
 .run-image img{
     width: 366px;
@@ -393,7 +423,7 @@ th, td{
     margin-top: 12px;
 }
 .inp-2{
-    width: 577px;
+    width: 569px;
     height: 48px;
     padding: 12px 20px 12px 20px;
     border-radius: 8px;
@@ -531,6 +561,9 @@ th, td{
     .navbar-wrapper {
         padding: 10px;
     }
+    .main-container{
+        padding: 8px;
+    }
     .main-content{
         flex-direction: column;
     }
@@ -545,25 +578,29 @@ th, td{
         color: rgb(255, 255, 255);
     }
     .main-title h1{
-        width: 245px;
-        font-size: 33px;
-       
-
-    
+        width: 235px;
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .main-title p{
+        width: 274px;
+        height: 96px;
+        font-size: 16px;
+        margin-top: 25px;
     }
     .workout-video{
-        width: 40%;
+        width: 42%;
         top: 10%;
-        left: 45%;
-        padding: 5px 2px;
+        left: 50%;
+        /* padding: 5px 2px; */
     }
     .video-tutorial{
         width: 39%;
         height: 70px;
         top: 50%;
         right: 60%;
-        text-align: center;
-        padding: 5px 9px;
+        /* text-align: center; */
+        /* padding: 5px 9px; */
     }
     .video-icon::before{
         display: block;
@@ -595,11 +632,16 @@ th, td{
     .extra-run-container{
         gap: 15px;
     }
+    .extra-run-container p{
+        width: 331px;
+    }
+
     .extra-run-section{
         flex-direction: column;
         width: 353px;
         height: 531px;
         padding: 25px;
+        margin-bottom: 155px;
         /* justify-content: center;
         align-content: center; */
     }
@@ -629,11 +671,24 @@ th, td{
         width: 100%;
         padding: 0 2px 1px 12px;
     }
-
+    
     .bim-calculator{
         /* width: 394px; */
         height: 817px;
         padding: 20px;
+            
+    }
+
+    .bim-container h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .bim-container p {
+        width: 353px;
+        height: 72px;
+        font-size: 14px;
+        margin-bottom: 50px;
+        
     }
     .bim-calculator-content{
         flex-direction: column;
@@ -699,6 +754,9 @@ th, td{
     }
     .copy-section p{
         text-align: left;
+    }
+    span{
+        font-size: 3.5rem;
     }
 
 
