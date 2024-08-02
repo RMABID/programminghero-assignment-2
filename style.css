@@ -47,6 +47,7 @@ body{
     font-weight: 800;
     font-size: 36px;
     color: rgb(230, 83, 60);
+    font-style: italic;
 }
 .nav-menu-btn{
     border: 3px solid rgba(255, 255, 255, 0.1);
@@ -510,10 +511,13 @@ th, td{
     padding-top: 88px;
 }
 .fitness-section-content{
+    width: 1060px;
+    height: 250px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    padding: 66px 191px 174px 190px;
+    gap: 85px;
+    /* padding: 66px 0px 74px 0px; */
     /* margin-left: 120px; */
 
 }
@@ -522,18 +526,21 @@ th, td{
     font-size: 70px;
     color: rgb(230, 83, 60);
     margin-bottom: 15px;
+    font-style: italic;
 }
 .fitness-section-container p{
+    width: 443px;
+    height: 72px;
     font-weight: 400;
     font-size: 19px;
     color: rgba(255, 255, 255, 0.5);
     /* text-align: center; */
 }
-.footer-section-a h3{
+.footer-section-li h3{
     font-size: 33px;
     color: rgb(255, 255, 255);
 }
-.footer-section-a a{
+.footer-section-li a{
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -548,6 +555,7 @@ th, td{
     margin: 0 auto;
     align-items: center;
     text-align: center;
+
 }
 .copy-section p{
     font-weight: 400;
@@ -692,6 +700,7 @@ th, td{
     }
     .bim-calculator-content{
         flex-direction: column;
+        align-items: center;
     }
     .bim-calculator-container h3,
     .bim-calculate-container h3{
@@ -702,11 +711,11 @@ th, td{
         width: 352px;
     }
     .inp-1{
-        width: 170px;
+        width: 160px;
 
     }
     .inp-2 {
-        width: 342px;
+        width: 330px;
     }
     
 
@@ -739,18 +748,29 @@ th, td{
     }
 
     .fitness-section-content{
+        width: 353px;
+        height: 779px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: right;
-        padding: 0 0 12px 23px;
+        gap: 0px;
+        /* padding: 0 0 12px 23px; */
     }
     
     .fitness-section-container h1{
         font-weight: 800;
-        font-size: 60px;
+        font-size: 63px;
+        font-style: italic;
+    }
+    .fitness-section-container p{
+        width: 317px;
+        height: 96px;
+        font-size: 16px;
+        line-height: 25px;
     }
     .copy-section{
         width: 364px;
+        padding-bottom: 50px;
     }
     .copy-section p{
         text-align: left;
