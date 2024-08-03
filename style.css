@@ -236,11 +236,13 @@ span{
 .habits-1 h3{
     font-weight: 600;
     font-size: 18px;
+    margin-top: 15px;
     color: rgb(255, 255, 255);
 }
 .habits-1 p{
     font-weight: 400;
     font-size: 14px;
+    margin-top: 5px;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -505,8 +507,9 @@ th, td{
 
 /* footer section css styles */
 .fitness-footer-section{
-    background-color: rgba(27, 20, 20, 0.897);
+    /* background-color: rgba(27, 20, 20, 0.897); */
     /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: #1A1A1A;
     
     padding-top: 88px;
 }
@@ -596,17 +599,20 @@ th, td{
         font-size: 16px;
         margin-top: 25px;
     }
+    .main-banner-image{
+        margin: 0 auto;
+    }
     .workout-video{
-        width: 42%;
+        width: 48%;
         top: 10%;
-        left: 50%;
+        left: 57%;
         /* padding: 5px 2px; */
     }
     .video-tutorial{
-        width: 39%;
+        width: 48%;
         height: 70px;
-        top: 50%;
-        right: 60%;
+        top: 47%;
+        right: 54%;
         /* text-align: center; */
         /* padding: 5px 9px; */
     }
@@ -680,23 +686,22 @@ th, td{
         padding: 0 2px 1px 12px;
     }
     
-    .bim-calculator{
-        /* width: 394px; */
-        height: 817px;
-        padding: 20px;
-            
-    }
-
     .bim-container h1 {
         font-size: 30px;
         margin-bottom: 10px;
     }
     .bim-container p {
-        width: 353px;
+        width: 350px;
         height: 72px;
         font-size: 14px;
         margin-bottom: 50px;
         
+    }
+    .bim-calculator{
+        /* width: 394px; */
+        height: 817px;
+        padding: 25px;
+            
     }
     .bim-calculator-content{
         flex-direction: column;
@@ -708,7 +713,8 @@ th, td{
         font-size: 16px;
     }
     .bim-calculate-container {
-        width: 352px;
+        width: 350px;
+        align-items: center;
     }
     .inp-1{
         width: 160px;
@@ -769,14 +775,14 @@ th, td{
         line-height: 25px;
     }
     .copy-section{
-        width: 364px;
+        width: 354px;
         padding-bottom: 50px;
     }
     .copy-section p{
         text-align: left;
     }
     span{
-        font-size: 3.5rem;
+        font-size: 4.5rem;
     }
 
 
