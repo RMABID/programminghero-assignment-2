@@ -132,7 +132,7 @@ span{
     padding: 7px 3px ;
     padding-left: 15px;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(24px);
+    backdrop-filter: blur(14px);
     color: rgb(255, 255, 255);
     /* border: 2px solid red; */
     position: absolute;
@@ -163,7 +163,7 @@ span{
     align-items: center;
     padding: 15px  9px;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(14px);
+    backdrop-filter: blur(3px);
     color: rgb(255, 255, 255);
     position: absolute;
     top: 75%;
@@ -603,9 +603,9 @@ th, td{
         margin: 0 auto;
     }
     .workout-video{
-        width: 48%;
+        width: 47%;
         top: 10%;
-        left: 57%;
+        left: 52%;
         /* padding: 5px 2px; */
     }
     .video-tutorial{
